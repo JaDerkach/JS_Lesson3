@@ -7,9 +7,9 @@ let index =['hello'];{
     }
 }
 document.write(`<div class="task">
-<div> <p>привіт! ${index}</p></div>
 <div> <p>привіт ${index}</p></div>
-<div> <p>привіт! ${index}</p></div>
+<div> <p>привіт ${index}</p></div>
+<div> <p>привіт ${index}</p></div>
 <div> <p>привіт ${index}</p></div>
 <div> <p>привіт ${index}</p></div>
 <div> <p>привіт ${index}</p></div>
