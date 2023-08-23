@@ -7,15 +7,16 @@ let index =['hello'];{
     }
 }
 document.write(`<div class="task">
-<div> привіт ${index}</div>
-<div> привіт ${index}</div>
-<div> привіт ${index}</div>
-<div> привіт ${index}</div>
-<div> привіт ${index}</div>
-<div> привіт ${index}</div>
-<div> привіт ${index}</div>
-<div> привіт ${index}</div>
-<div> привіт ${index}</div>
+<div> <p>привіт! ${index}</p></div>
+<div> <p>привіт ${index}</p></div>
+<div> <p>привіт! ${index}</p></div>
+<div> <p>привіт ${index}</p></div>
+<div> <p>привіт ${index}</p></div>
+<div> <p>привіт ${index}</p></div>
+<div> <p>привіт ${index}</p></div>
+<div> <p>привіт ${index}</p></div>
+<div> <p>привіт ${index}</p></div>
+
 </div>`)
 
 // - За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом всередині.
