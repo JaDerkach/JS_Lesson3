@@ -1,10 +1,21 @@
 // - За допомогою циклу for і document.write() вивести 10 блоків div c довільним текстом всередині
-
-let index = ['html', 'css', 'javascript', 'mysql', 'mongodb', 'react', 'angular', 'node.js'];
-for (let i = 0; i < index.length; i++) {
-    const index1 = index[i];
+let index =['hello'];{
+    for (let index1 of index) {
+    }
 }
-document.write(`<div>${index}</div>`)
+document.write(`<div class="task">
+<div> привіт ${index}</div>
+<div> привіт ${index}</div>
+<div> привіт ${index}</div>
+<div> привіт ${index}</div>
+<div> привіт ${index}</div>
+<div> привіт ${index}</div>
+<div> привіт ${index}</div>
+<div> привіт ${index}</div>
+<div> привіт ${index}</div>
+
+</div>`)
+
 
 // - За допомогою циклу for і document.write() вивести 10 блоків div c довільним текстом і індексом всередині
 // - За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом всередині.
