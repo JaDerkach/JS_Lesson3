@@ -1,23 +1,14 @@
 // - За допомогою циклу for і document.write() вивести 10 блоків div c довільним текстом всередині
+
+for (let i=0;i<10; i++ ) {
+    document.write(`<div>Hello Oten</div>`)
+}
+
 // - За допомогою циклу for і document.write() вивести 10 блоків div c довільним текстом і індексом всередині
 
-
-let index =['hello'];{
-    for (let index1 of index) {
-    }
-}
-document.write(`<div class="task">
-<div> <p>привіт ${index}</p></div>
-<div> <p>привіт ${index}</p></div>
-<div> <p>привіт ${index}</p></div>
-<div> <p>привіт ${index}</p></div>
-<div> <p>привіт ${index}</p></div>
-<div> <p>привіт ${index}</p></div>
-<div> <p>привіт ${index}</p></div>
-<div> <p>привіт ${index}</p></div>
-<div> <p>привіт ${index}</p></div>
-
-</div>`)
+ for (let i=0;i<10; i++ ) {
+     document.write(`<div>${i}Hello Oten</div>`)
+ }
 
 // - За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом всередині.
 // - За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом і індексом всередині.
@@ -46,19 +37,10 @@ document.write(`<div class="task">
 //
 //
 // let listOfItems = ['html', 'css', 'javascript', 'mysql', 'mongodb', 'react', 'angular', 'node.js'];
-// for (let i = 0; i < listOfItems.length; i++) {
+// for (let i = 8; i < listOfItems.length; i++) {
 //     const listOfItem = listOfItems[i];
 // }
-// document.write(`<ul>
-//             <li>html</li>
-//             <li>css</li>
-//             <li>javascript</li>
-//             <li>mysql</li>
-//             <li>mongodb</li>
-//             <li>react</li>
-//             <li>angular</li>
-//             <li>node.js</li>
-//              </ul>`)
+// document.write(`<ul><li>${listOfItems}</li></ul>`)
 // ---------------------------------------------------------------------------------------------
 //
 //     Використовуючи данні з масиву, за допомоги document.write та циклу
