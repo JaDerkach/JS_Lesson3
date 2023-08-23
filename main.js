@@ -7,11 +7,24 @@ for (let i=0;i<10; i++ ) {
 // - За допомогою циклу for і document.write() вивести 10 блоків div c довільним текстом і індексом всередині
 
  for (let i=0;i<10; i++ ) {
-     document.write(`<div>${i}Hello Oten</div>`)
+     document.write(`<div>${i}--Hello Oten</div>`)
  }
 
 // - За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом всередині.
+
+let index=0
+
+while (index<20) {
+    document.write(`<h1>Hello Oten</h1>`);
+    index++;
+}
+
 // - За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом і індексом всередині.
+let i=0
+while (i<20) {
+    document.write(`<h1>Hello Oten==${i}</h1>`);
+    i++;
+}
 
 //----------------------------------------------------------------------------------------------------------------------------
 
@@ -36,11 +49,12 @@ for (let i=0;i<10; i++ ) {
 // замість 'ITEM OF ARRAY' підставити елемент з масиву щоб получився цілий список з даними з масиву
 //
 //
-// let listOfItems = ['html', 'css', 'javascript', 'mysql', 'mongodb', 'react', 'angular', 'node.js'];
-// for (let i = 8; i < listOfItems.length; i++) {
-//     const listOfItem = listOfItems[i];
-// }
-// document.write(`<ul><li>${listOfItems}</li></ul>`)
+let listOfItems = ['html', 'css', 'javascript', 'mysql', 'mongodb', 'react', 'angular', 'node.js'];
+ document.write(`<ul>`);
+for (let listOfItem of listOfItems) {
+    document.write(`<li>${listOfItem}</li>`);
+}
+document.write(`</ul>`);
 // ---------------------------------------------------------------------------------------------
 //
 //     Використовуючи данні з масиву, за допомоги document.write та циклу
